@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+    font-weight: 400;
+    text-decoration: #ffcc00 underline wavy;
+    letter-spacing: 5px;
+    font-size: 70px;
+    font-family: Verdana, Futura, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+    
+}

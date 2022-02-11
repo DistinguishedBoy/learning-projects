@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+    <form>
+        <p>
+            <label for="username">Enter a Username:</label>
+            <input type="text" placeholder="username" id="username" name="username">
+        </p>
+        <p>
+            <label for="password">Enter a Password:</label>
+            <input type="password" placeholder="password" id="password" name="password">
+        </p>
+    </form>
+    <form action="https://www.reddit.com/search">
+        <p>
+            <input type="text" name="q">
+            <button id="search-reddit">Search Reddit</button>
+        </p>
+    </form>
+
+    <h2>More Inputs</h2>
+    <form action="paris/">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I agree to the <span>TOS</span></label>
+
+        <p>
+            <label for="xs">XS:</label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="s">S:</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">M:</label>
+            <input type="radio" name="size" id="m" value="m">
+
+        </p>
+        <p>
+            <label for="meal">Please select an entree</label>
+            <select name="meal" id="meal">
+                <option value="fish">Fish</option>
+                <option value="veg">vegetarian</option>
+                <option value="chick">Chicken</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="cheese">Amount of cheese</label>
+            <input type="range" name="cheese" id="cheese" value="1" min="1" max="10">
+        </p>
+
+        <p>
+            <label for="request">Any special requests?</label>
+            <br>
+            <textarea id="request" name="request" rows="" cols="" placeholder="Hello"></textarea>
+        </p>
+        <button>Submit</button>
+    </form>
+
+    <h2>Validation Demo</h2>
+
+    <form action="/dummy">
+        <label for="first">Enter First Name</label>
+        <input type="text" id="first" name="first" required>
+        <label for="username">Enter Username</label>
+        <input type="text" id="username" name="username" minlength="5" maxlength="20" required>
+        <button>Submit</button>
+    </form>
+    <br>
+    <a href="/info">More Info</a>
+
+</body>
+
+
+</html>

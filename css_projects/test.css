@@ -1,0 +1,46 @@
+body {
+    background-color: #92bddf;
+}
+
+h1,h2 {
+    color: #1e2c33;
+}
+
+button {
+    background-color: #666999;
+
+}
+
+button:hover {
+    background-color:#ca6702 ;
+    color: #f1faee;
+}
+
+button:active {
+    background-color: #0a9396;
+}
+
+#search-reddit {
+    background-color: #ef4923;
+    color: #f1faee;
+}
+
+span {
+    color: #8c4237;
+}
+
+input[type=password]{
+    color: green;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a::selection {
+    background-color: brown;
+}

@@ -1,0 +1,33 @@
+section{
+    background-color: purple;
+    width: 800px;
+    height: 800px;
+}
+
+div {
+    background-color: pink;
+    width: 50%;
+    height: 50%;
+}
+
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    list-style: 2300%;
+}
+
+article {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-left: 1em;
+}
+
+button{
+    font-size: 1em;
+    padding: 0 30px;
+    border-radius: 0.5em;
+    background-color:red;
+
